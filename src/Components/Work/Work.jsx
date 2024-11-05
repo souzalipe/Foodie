@@ -7,28 +7,26 @@ const Work = () => {
     const workInfoData = [
       {
         image: PickMeals,
-        title: "Pick Meals",
-        text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+        title: "Escolha de refeições",
+        text: "Cada refeição é unica, por isso ter um alimento agradavel para a sua escolha é tão importante.",
       },
       {
         image: ChooseMeals,
-        title: "Choose How Often",
-        text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+        title: "Escolha com frequência",
+        text: "É sempre bom fazer a escolha certa, assim oferecemos as melhores opções para a escolha.",
       },
       {
         image: DeliveryMeals,
-        title: "Fast Deliveries",
-        text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+        title: "Entregas rápidas",
+        text: "De forma rápida e eficiênte levamos sua comida até você.",
       },
     ];
     return (
       <div className="work-section-wrapper">
         <div className="work-section-top">
-          <p className="primary-subheading">Work</p>
-          <h1 className="primary-heading">How It Works</h1>
+          <h1 className="primary-heading">Como funciona?</h1>
           <p className="primary-text">
-            Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et
-            elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+            Nos aqui da Foodie desfrutamos dos três e. 
           </p>
         </div>
         <div className="work-section-bottom">
