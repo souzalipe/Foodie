@@ -13,8 +13,6 @@ import {
     ListItemText,
 } from "@mui/material"
 import HomeIcon from "@mui/icons-material/Home"
-import InfoIcon from "@mui/icons-material/Info"
-import CommentRoundedIcon from "@mui/icons-material/CommentRounded"
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded"
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded"
 
@@ -27,15 +25,10 @@ const Navbar = () =>{
             icon: <HomeIcon />
         },
         {
-            text:"About",
-            icon: <InfoIcon />
-        },{
-            text:"Testimonials",
-            icon: <CommentRoundedIcon/>
-        },{
             text:"Contact",
             icon: <PhoneRoundedIcon/>
-        },{
+        },
+        {
             text:"Cart",
             icon: <ShoppingCartRoundedIcon/>
         },
@@ -48,10 +41,8 @@ const Navbar = () =>{
             </div>
             <div className="navbar-links-container">
                 <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
                 <Link to="/work" >Work</Link>
                 <Link to="/contact" >Contact</Link>
-                <Link to="/testimonial"></Link>
                 <a href="">
                     <BsCart2 className="navbar-cart-icon" />
                 </a>

@@ -1,9 +1,13 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+
+a{
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -68,7 +72,7 @@ nav {
 .home-bannerImage-container {
   position: absolute;
   top: -100px;
-  right: -170px;
+  right: -280px;
   z-index: -2;
   max-width: 700px;
 }
@@ -83,6 +87,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin-left: 20px;
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
@@ -119,7 +124,6 @@ nav {
   background-color: #e48f0f;
 }
 .about-section-container {
-  margin-top: 20rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -203,18 +207,16 @@ nav {
 }
 .footer-logo-container {
   max-width: 110px;
+  margin-left: 20px;
 }
 .footer-icons {
   margin-top: 2.5rem;
 }
 .footer-icons svg {
   font-size: 1.5rem;
-  margin-right: 1.25rem;
+  margin-left: 20px;
   color: #585858;
 }
-/* .footer-section-one {
-  border: 2px solid blue;
-} */
 .footer-section-two {
   flex: 1;
   display: flex;
@@ -262,7 +264,7 @@ nav {
   margin-top: 1.5rem;
 }
 .work-section-wrapper {
-  margin-top: 15rem;
+  margin-top: 5rem;
 }
 .work-section-top p {
   text-align: center;
