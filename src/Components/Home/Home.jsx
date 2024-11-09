@@ -1,8 +1,10 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import BannerBackground from "../../assets/home-banner-background.png";
 import BannerImage from "../../assets/home-banner-image.png";
 import { FiArrowRight } from "react-icons/fi";
+import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () =>{
     return (
@@ -27,6 +29,10 @@ const Home = () =>{
           <div className="home-image-section">
             <img src={BannerImage} alt="" />
           </div>
+          <div>
+            <Testimonial />
+          </div>
+          <Footer></Footer>
         </div>
       </div>
     )

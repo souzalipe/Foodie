@@ -2,10 +2,13 @@ import React from "react";
 import AboutBackground from "../../assets/about-background.png";
 import AboutBackgroundImage from "../../assets/about-background-image.png";
 import { BsFillPlayCircleFill } from "react-icons/bs";
+import Navbar from "../Navbar/Navbar";
 
 const About = () => {
   return (
-    <div className="about-section-container">
+    <>
+      <Navbar/>
+      <div className="about-section-container">
       <div className="about-background-image-container">
         <img src={AboutBackground} alt="" />
       </div>
@@ -33,6 +36,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

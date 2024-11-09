@@ -1,22 +1,23 @@
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Work from './Components/Work/Work'
 import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
 import Testimonial from './Components/Testimonial/Testimonial'
 
 function App() {
 
   return (
-    <div className='App'>
-      <Home/>
-      <About/>
-      <Work/>
-      <Testimonial/>
-      <Contact/>
-      <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/work" element={<Work/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/testimonial" element={<Testimonial/>} />
+      </Routes>
+    </Router>
   )
 }
 

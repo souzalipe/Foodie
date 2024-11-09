@@ -2,6 +2,7 @@ import React from "react"
 import PickMeals from "../../assets/pick-meals-image.png"
 import ChooseMeals from "../../assets/choose-image.png"
 import DeliveryMeals from "../../assets/delivery-image.png"
+import Navbar from "../Navbar/Navbar"
 
 const Work = () => {
     const workInfoData = [
@@ -22,6 +23,8 @@ const Work = () => {
       },
     ];
     return (
+      <>
+      <Navbar/>
       <div className="work-section-wrapper">
         <div className="work-section-top">
           <h1 className="primary-heading">Como funciona?</h1>
@@ -41,6 +44,7 @@ const Work = () => {
           ))}
         </div>
       </div>
+    </>
     );
   };
   

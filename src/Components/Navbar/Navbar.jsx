@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import React, { useState } from "react";
 import Logo from "../../assets/Logo.svg"
 import { BsCart2 } from "react-icons/bs"
@@ -46,10 +47,11 @@ const Navbar = () =>{
                 <img src={Logo} alt="" />
             </div>
             <div className="navbar-links-container">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Testimonials</a>
-                <a href="">Contact</a>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/work" >Work</Link>
+                <Link to="/contact" >Contact</Link>
+                <Link to="/testimonial"></Link>
                 <a href="">
                     <BsCart2 className="navbar-cart-icon" />
                 </a>
