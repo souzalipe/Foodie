@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { scrollRevealConfig } from "../../library/reveal/ScrollReveal.js"
+import { scrollRevealConfigFlip } from "../../library/flip/ScrollReveal.js";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import About from "../About/About"
@@ -8,6 +10,12 @@ import { FiArrowRight } from "react-icons/fi";
 import Testimonial from "../Testimonial/Testimonial";
 
 const Home = () => {
+
+  useEffect(()=>{
+    scrollRevealConfigFlip(),
+    scrollRevealConfig
+  })
+
   return (
     <>
       <div className="home-container">
@@ -29,7 +37,7 @@ const Home = () => {
               Peça Agora <FiArrowRight />{" "}
             </button>
           </div>
-          <div className="home-image-section">
+          <div className="home-image-section flip">
             <img src={BannerImage} alt="" />
           </div>
         </div>
