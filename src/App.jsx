@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom';
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Work from './Components/Work/Work'
@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/" element={<Navigate to="/home"/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/work" element={<Work/>} />

@@ -3,6 +3,7 @@ import PickMeals from "../../assets/pick-meals-image.png"
 import ChooseMeals from "../../assets/choose-image.png"
 import DeliveryMeals from "../../assets/delivery-image.png"
 import Navbar from "../Navbar/Navbar"
+import Footer from "../Footer/Footer"
 
 const Work = () => {
     const workInfoData = [
@@ -44,6 +45,7 @@ const Work = () => {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
     );
   };

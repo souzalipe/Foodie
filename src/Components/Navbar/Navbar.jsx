@@ -40,9 +40,9 @@ const Navbar = () =>{
                 <img src={Logo} alt="" />
             </div>
             <div className="navbar-links-container">
-                <Link to="/home">Home</Link>
-                <Link to="/work" >Work</Link>
-                <Link to="/contact" >Contact</Link>
+                <Link to="/home" className="link-nav-btn">Home</Link>
+                <Link to="/work" className="link-nav-btn">Work</Link>
+                <Link to="/contact" className="link-nav-btn">Contact</Link>
                 <a href="">
                     <BsCart2 className="navbar-cart-icon" />
                 </a>
