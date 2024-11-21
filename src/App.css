@@ -278,6 +278,15 @@ nav {
   margin-top: 19px;
 }
 
+.link-nav-btn{
+  display: inline-block; /* Para garantir o efeito */
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.link-nav-btn:hover{
+  color: #e48f0f;
+}
+
 
 .work-section-top p {
   text-align: center;
