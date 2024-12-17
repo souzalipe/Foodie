@@ -43,7 +43,7 @@ const Navbar = () =>{
                 <Link to="/home" className="link-nav-btn">Home</Link>
                 <Link to="/work" className="link-nav-btn">Work</Link>
                 <Link to="/contact" className="link-nav-btn">Contacts</Link>
-                <a href="">
+                <a href="#">
                     <BsCart2 className="navbar-cart-icon" />
                 </a>
                 <button className="primary-button">Bookings Now</button>
