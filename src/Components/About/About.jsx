@@ -26,9 +26,9 @@ const About = () => {
           alimentação.
         </p>
         <div className="about-buttons-container">
-          <button className="secondary-button"><a className="link-video" href="https://www.youtube.com/channel/UCy5nRP880qA_R4xa1e72xDQ">Saiba Mais</a></button>
+          <button className="secondary-button"><a className="link-video" href="https://www.youtube.com/channel/UC7uKY3B5_XT5Kv0RosSvdNQ">Saiba Mais</a></button>
           <button className="watch-video-button">
-            <BsFillPlayCircleFill></BsFillPlayCircleFill> Assista o vídeo 
+            <BsFillPlayCircleFill><a className="link-video" href="#"></a></BsFillPlayCircleFill> Assista o vídeo 
           </button>
         </div>
       </div>
